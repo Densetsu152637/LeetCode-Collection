@@ -1,5 +1,5 @@
 # 1431. Kids With the Greatest Number of Candies
-def kidsWithCandies(candies: list[int], extraCandies: int) -> list[bool]:
+def kidsWithCandies(self, candies: list[int], extraCandies: int) -> list[bool]:
     return_list = [False]*len(candies)
     max_candies = max(candies)
     

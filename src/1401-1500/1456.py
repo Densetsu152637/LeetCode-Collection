@@ -1,5 +1,5 @@
 # 1456. Maximum Number of Vowels in a Substring of Given Length
-def maxVowels(s: str, k: int) -> int:
+def maxVowels(self, s: str, k: int) -> int:
     if len(s) < k:
         return 0
     

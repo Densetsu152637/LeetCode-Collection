@@ -1,5 +1,5 @@
 # 1768. Merge Strings Alternately
-def mergeAlternately(word1: str, word2: str) -> str:
+def mergeAlternately(self, word1: str, word2: str) -> str:
     return_string: str = ""
     i: int = 0
     iterations = max(len(word1), len(word2))

@@ -1,5 +1,5 @@
 # 724. Find Pivot Index
-def pivotIndex(nums: list[int]) -> int:
+def pivotIndex(self, nums: list[int]) -> int:
     
     left_side = [0]*len(nums)
     left_side[0] = nums[0]

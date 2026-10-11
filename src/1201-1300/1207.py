@@ -1,5 +1,5 @@
 # 1207. Unique Number of Occurrences
-def uniqueOccurrences(arr: list[int]) -> bool:
+def uniqueOccurrences(self, arr: list[int]) -> bool:
     occ = dict()
     for val in arr:
         if occ.get(val) != None:

@@ -1,5 +1,5 @@
 # 735. Asteroid Collision 
-def asteroidCollision(asteroids: list[int]) -> list[int]:
+def asteroidCollision(self, asteroids: list[int]) -> list[int]:
     s = []
     for a in asteroids:
         if len(s) == 0:

@@ -1,5 +1,5 @@
 # 2390. Removing Stars From a String
-def removeStars(s: str) -> str:
+def removeStars(self, s: str) -> str:
     r_a = []
     for char in s:
         if char == "*":

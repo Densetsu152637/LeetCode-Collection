@@ -1,5 +1,5 @@
 # 392. Is Subsequence
-def isSubsequence(s: str, t: str) -> bool:
+def isSubsequence(self, s: str, t: str) -> bool:
     
     if (len(s) == 0):
         return True

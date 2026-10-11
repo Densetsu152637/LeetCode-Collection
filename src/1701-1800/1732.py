@@ -1,5 +1,5 @@
 # 1732. Find the Highest Altitude
-def largestAltitude(gain: list[int]) -> int:
+def largestAltitude(self, gain: list[int]) -> int:
     
     net_alt = [0]*len(gain)
     net_alt[0] = gain[0]

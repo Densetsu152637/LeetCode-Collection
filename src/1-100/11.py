@@ -1,5 +1,5 @@
 # 11. Container With Most Water
-def maxArea(height: list[int]) -> int:
+def maxArea(self, height: list[int]) -> int:
     
     left: int = 0
     right: int = len(height) - 1

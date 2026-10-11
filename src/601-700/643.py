@@ -1,5 +1,5 @@
 # 643. Maximum Average Subarray I
-def findMaxAverage(nums: list[int], k: int) -> float:
+def findMaxAverage(self, nums: list[int], k: int) -> float:
     if len(nums) < k:
         return sum(nums)/k
     elif len(nums) == k:

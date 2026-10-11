@@ -1,5 +1,5 @@
 # 605. Can Place Flowers
-def canPlaceFlowers(flowerbed: list[int], n: int) -> bool:
+def canPlaceFlowers(self, flowerbed: list[int], n: int) -> bool:
     
     count: int = 0
     i: int = 0
