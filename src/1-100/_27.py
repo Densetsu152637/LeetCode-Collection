@@ -4,13 +4,15 @@ class Solution:
     def removeElement(self, nums: list[int], val: int) -> int:        
         n = len(nums)
         p = n - 1
+        i = n - 1
         
         # iterate backwards, swapping elements with back items to replace found values
-        for i in range(len(nums) - 1, -1, -1):
+        while i >= 0:
             if nums[i] == val:
                 nums[p], nums[i] = nums[i], nums[p]
-                while nums[p] == val:
+                while i <= p and nums[p] == val:
                     p -= 1
+            i -= 1
                 
         # delete matched vals from end
         k = n - p - 1
